@@ -23,10 +23,10 @@ var generateParenthesis = function(n) {
         populate(str + ')', left, right + 1);
     }
 
-    // populate('(', 1, 0);
+    populate('(', 1, 0);
 
-    console.log(result);
-    return result;
+    // console.log(result);
+    return [...result];
 };
 
 generateParenthesis(1);
